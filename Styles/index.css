@@ -8,13 +8,42 @@ h1 {
     
 }
 
-/* Links */
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 100px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 80px;
+  }
+}
 
 nav {
-    font-size: 20px;
-    text-align: center;
-    list-style-type: none;
+  font-size: 20px;
+  text-align: center;
+  list-style-type: none;
 }
+
+@media screen and (min-width: 601px) {
+  nav {
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  nav {
+    font-size: 20px;
+  }
+}
+
+
+/* Links */
+
+
 
 
 
@@ -23,11 +52,13 @@ nav {
 
 div.polaroid {
     margin: auto;
-    width: 70%;
+    max-width: 800px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-style: italic;
     color: gray;
+    overflow: hidden;
+
     }
   
   img {width: 70%;}
@@ -37,4 +68,16 @@ div.polaroid {
     padding: 10px 10px;
   }
 
+
+  @media screen and (min-width: 601px) {
+    div.container {
+      font-size: 12px;
+    }
+  }
+
   
+  @media screen and (max-width: 600px) {
+    div.container {
+      font-size: 10px;
+    }
+  }
