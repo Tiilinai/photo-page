@@ -22,9 +22,6 @@ h1 {
 }
 
 
-
-
-
 /* Links */
 
 
@@ -52,12 +49,13 @@ nav {
 
 div.polaroid {
     margin: auto;
+    margin-bottom: 20px;
     max-width: 800px;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-style: italic;
     color: gray;
-    overflow: hidden;
+    overflow: auto;
 
     }
   
@@ -71,13 +69,13 @@ div.polaroid {
 
   @media screen and (min-width: 601px) {
     div.container {
-      font-size: 12px;
+      font-size: 16px;
     }
   }
 
   
   @media screen and (max-width: 600px) {
     div.container {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
